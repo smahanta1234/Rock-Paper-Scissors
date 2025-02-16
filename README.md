@@ -1,29 +1,23 @@
 # Rock-Paper-Scissors
 This is a simple Rock-Paper-Scissors game implemented in Python. The user plays against the computer, which randomly selects an option.
 
-How to Play
+How to Play:
 
 Run the script in a Python environment.
 
-You will be prompted to enter a number:
+You will be prompted to enter a number from 0, 1 or 2:
 
-0 for Rock
-
-1 for Paper
-
-2 for Scissors
+    1. 0 for Rock
+    2. 1 for Paper
+    3. 2 for Scissors
 
 The program will display your choice and the computer’s random choice.
 
-The game determines the winner based on the following rules:
-
-Rock beats Scissors
-
-Scissors beat Paper
-
-Paper beats Rock
-
-If both choices are the same, it's a draw.
+The game determines the winner based on the following rules, I'm sure you're aware:
+    1. Rock beats Scissors
+    2. Scissors beat Paper
+    3. Paper beats Rock
+    4. If both choices are the same, it's a draw.
 
 Example Output
 
@@ -53,24 +47,16 @@ Requirements
 Python 3.x
 
 How to Run
+    1. Clone or download the script.
+    2. Run the script using:
+        python rock_paper_scissors.py
+    3. Follow the on-screen prompts.
 
-Clone or download the script.
+Improvements & Features you can add to the base code:
 
-Run the script using:
-
-python rock_paper_scissors.py
-
-Follow the on-screen prompts.
-
-Improvements & Features to Add
-
-Input validation to handle invalid choices.
-
-Add a loop to allow multiple rounds.
-
-Implement a score-tracking system.
-
-Enhance visuals with emojis or a GUI.
-
-Enjoy the game! 🎮
+    1. Input validation to handle invalid choices.
+    2. Add a loop to allow multiple rounds.
+    3. Implement a score-tracking system.
+    4. Enhance visuals with emojis or a GUI.
+    5. Enjoy the game! 🎮
 
